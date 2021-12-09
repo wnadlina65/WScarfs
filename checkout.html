@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Checkout | WScarfs</title>
+        <link rel="shortcut icon" href="img/wlogo.png" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Custom styles for this template-->
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+    <table>
+    <tr>
+        <td>
+            <!--Table Menu-->
+            <table style="width: 100%;" id="t01">
+                <tr align="center">
+                    <td width="20%"><a href="index.html"><img src="img\wscarfs.png" width="50%"></a></td>
+                    <td width="15%"><a href="index.html"><button>HOME</button></a></td>
+                    <td width="15%"><a href="new.html"><button>NEW ARRIVALS</button></a></td>
+                    <td width="15%"><a href="contact.html"><button>CONTACT US</button></a></td>
+                    <td width="15%"><a href="cart.html" style="font-size:24px;padding:0px;margin:0px"><button>CART</button></a></td>
+			    </tr>
+            </table>
+            <table>
+                <img src="img\slider9.png" style="width:100%">
+            </table>
+            
+            <!--Table for add to cart-->
+            <h1>CHECKOUT ITEMS</h1>
+            <table class="container" width="50%" cellspacing="50" id="t02">
+                <form>
+                    <tr class="center">
+                        <th>Billing Address</th>
+                        <th>Payment</th>
+                        <tr>
+                            <td>
+                                <label for="fname"><i class="fa fa-user"></i>Full Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Enter your first name" size="30">
+                                <label for="lname"><i class="fa fa-user"></i>Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Enter your last name" size="30">
+                                <label for="email"><i class="fa fa-envelope"></i>Email</label>
+                                <input type="email" id="email" name="email" placeholder="ali@example.com" size="30">
+                                <label for="adr1"><i class="fa fa-address-card-o"></i>Address 1</label>
+                                <input type="text" id="adr1" name="address1" placeholder="No.1, Lorong 21..." size="30">
+                                <label for="adr2"><i class="fa fa-address-card-o"></i>Address 2</label>
+                                <input type="text" id="adr2" name="address2" placeholder="Jalan..." size="30">
+                                <label for="city"><i class="fa fa-institution"></i>City</label>
+                                <input type="text" id="city" name="city" placeholder="New York" size="30">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="NY">
+                                <label for="zip">Poscode</label>
+                                <input type="text" id="zip" name="zip" placeholder="10001">
+                            </td>
+                            <td>
+                                <label for="fname">Accepted Cards</label>
+                                    <select name="fname" id="fname">
+                                        <option value="visa">Visa</option>
+                                        <option value="mastercard">MasterCard</option>
+                                        <option value="bankislam">Bank Islam</option>
+                                        <option value="maybankberhad">Maybank</option>
+                                        <option value="maybankberhad">CIMB</option>
+                                    </select>
+                                <label for="cname">Name on Card</label>
+                                    <input type="text" id="cname" name="cardname" placeholder="Ali bin Jabit" size="30">
+                                <label for="ccnum">Credit Card</label>
+                                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" size="30">
+                                <label for="expmonth">Expiry Month</label>
+                                    <input type="text" id="expmonth" name="expmonth" placeholder="September" size="30">
+                                <label for="expyear">Expiry Year</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2019">
+                                <label for="ccv">CCV</label>
+                                    <input type="text" id="ccv" name="ccv" placeholder="123">
+                                <label>
+                                    <input type="checkbox" checked="checked" name="sameadr" size="30">Shipping address same as billing</label>
+                                    <br/>
+                                <a href="#"></p><input type="submit" value="Pay" class="btn" size="30"></a>
+                            </td>
+                        </tr>
+                    </tr>
+                </form>
+            </table>
+            <!--Table form-->
+            <!--<table width="50%">
+                <form name="checkout.html" method="post" action="registrationProcess.php">
+                    <h1>REGISTER FORM</h1>
+                        <tr>
+                            <td>Name: </td>
+                            <td><input type="text" name="name" id="name" size="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>Email: </td>
+                            <td><input type="email" name="email" size="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>IC <em>(E.g:990101020304)</em>:</td>
+                            <td><input type="text" name="ic" size="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>Phone No: </td>
+                            <td><input type="tel" name="phone" size="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>Username: </td>
+                            <td><input type="text" name="username" size="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td><input type="password" name="password" size="50" /></td>
+                        </tr>
+                        <tr>
+                        <td>Address: </td>
+                            <td><textarea name="address" ></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="register" onclick="showDetail()" value="Register"></td>
+                        </tr>
+                </form>
+            </table>-->
+            
+            <!--Table for forms/map/youtube-->
+            </hr>
+            <table id="t02">
+                <tr align="center">
+                    <td width="10%"><h4>CUSTOMER SERVICES</h4><br/>
+                        <a href="about.html"><button>About Us</button></a>
+                        <br/>
+                        <a href="contact.html"><button>Contact Us</button></a>
+                        <a href="tutorial.html"><button>Tutorials</button></a>
+                    </td>
+                    <td width="10%"><h4>OUR STORE</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.9686081322534!2d103.32438441475922!3d3.8168575472234187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c8ba922e05a2c1%3A0x4613cdd16428802!2sPutra%20Square%2C%20Kuantan%2C%20Pahang!5e0!3m2!1sen!2smy!4v1571626627986!5m2!1sen!2smy" 
+                        width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </td>
+                </tr>
+            </table>
+            <!--<table>
+                <tr align="center" class="footer">
+                    <td>Copyright &copy; WScarfs 2019</td>
+                </tr>
+            </table>-->
+        </td>
+    </tr>
+    </table>
+    <!--Custom scripts for all pages-->
+    <script src="script.js"></script>   
+    </body>
+</html>
